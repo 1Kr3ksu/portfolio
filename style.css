@@ -1,0 +1,97 @@
+body , html , *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body {
+    background: linear-gradient(135deg, #76b5c5, #d4e6f1);
+    font-size: 16px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Kontener */
+.container {
+    max-width:68.75rem;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Stylizacja nagłówka */
+header {
+    background-color: #3c8dad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Sekcja "O mnie" */
+.about, .skills, .projects {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about h1, .skills h1, .projects h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.about p, .skills ul, .projects p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Stylizacja listy umiejętności */
+.skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Projekty */
+.projects p {
+    line-height: 1.5;
+}
+
+/* Stylizacja stopki */
+footer {
+    background-color: #3c8dad;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Stylizowanie odnośników */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
